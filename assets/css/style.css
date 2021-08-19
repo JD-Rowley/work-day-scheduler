@@ -37,9 +37,6 @@ textarea{
 }
 
 .hour {
-  display: flex;
-  justify-content: flex-end;
-  padding: 15px 5px;
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -61,12 +58,17 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 3px solid #01728b;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
-  height: 80px;
+  height: 79px;
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+
 }
 
 .saveBtn i:hover {
