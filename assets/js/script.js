@@ -9,7 +9,7 @@ var currentHour = moment().hour();
 // save tasks to localStorage
 $(".saveBtn").on("click", function() {
     // create variables to save tasks and time
-    var task = $(".task-description").val();
+    var task = $(this).siblings(".task-description").val();
     var time = $(this).parent().attr("id");
 
     localStorage.setItem(time, task);
