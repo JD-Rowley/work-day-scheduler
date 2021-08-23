@@ -31,7 +31,7 @@ function hourTracker() {
     $(".time-block").each(function () {
         var blockHour = parseInt($(this)
             .attr("id")
-            .split("hour")[1]);
+            .split("hour", 1));
         console.log(blockHour, currentHour);
 
         // check current time against given time blocks
