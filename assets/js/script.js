@@ -32,7 +32,6 @@ function hourTracker() {
         var blockHour = parseInt($(this)
             .attr("id")
             .split("hour", 1));
-        console.log(blockHour, currentHour);
 
         // check current time against given time blocks
         if (blockHour < currentHour) {
