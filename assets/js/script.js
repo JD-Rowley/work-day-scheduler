@@ -4,7 +4,7 @@ var currentDayEl = document.getElementById("currentDay");
 currentDayEl.textContent = moment().format("dddd, MMM Do");
 
 // color code time blocks to indicate past, present, or future
-var currentHour = moment().hour();
+var currentHour = moment().hours();
 
 // save tasks to localStorage
 $(".saveBtn").on("click", function() {
@@ -16,22 +16,22 @@ $(".saveBtn").on("click", function() {
 })
 
 // retrieve tasks from localStorage
-$("#9am .task-description").val(localStorage.getItem("9am"));
-$("#10am .task-description").val(localStorage.getItem("10am"));
-$("#11am .task-description").val(localStorage.getItem("11am"));
-$("#12pm .task-description").val(localStorage.getItem("12pm"));
-$("#1pm .task-description").val(localStorage.getItem("1pm"));
-$("#2pm .task-description").val(localStorage.getItem("2pm"));
-$("#3pm .task-description").val(localStorage.getItem("3pm"));
-$("#4pm .task-description").val(localStorage.getItem("4pm"));
-$("#5pm .task-description").val(localStorage.getItem("5pm"));
+$("#9-00 .task-description").val(localStorage.getItem("9-00"));
+$("#10-00 .task-description").val(localStorage.getItem("10-00"));
+$("#11-00 .task-description").val(localStorage.getItem("11-00"));
+$("#12-00 .task-description").val(localStorage.getItem("12-00"));
+$("#13-00 .task-description").val(localStorage.getItem("13-00"));
+$("#14-00 .task-description").val(localStorage.getItem("14-00"));
+$("#15-00 .task-description").val(localStorage.getItem("15-00"));
+$("#16-00 .task-description").val(localStorage.getItem("16-00"));
+$("#17-00 .task-description").val(localStorage.getItem("17-00"));
 
 function hourTracker() {
     // loop over time blocks
     $(".time-block").each(function () {
         var blockHour = parseInt($(this)
             .attr("id")
-            .split("hour", 1));
+            .split("-"));
 
         // check current time against given time blocks
         if (blockHour < currentHour) {
