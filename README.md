@@ -8,3 +8,4 @@ To add a task, simply click on the colored time block of choice and a text area 
 
 https://jd-rowley.github.io/work-day-scheduler/
 
+![screenshot](https://user-images.githubusercontent.com/86571612/130673288-912f7fbe-60e6-41e6-b27b-5ebfaaa62714.jpg)
