@@ -7,3 +7,4 @@ Each time block is checked against moment.js and is color-coded depending on the
 To add a task, simply click on the colored time block of choice and a text area will appear. Enter a desired task and click on the save icon to the right of the time block. The task will be saved to local storage until cleared.
 
 https://jd-rowley.github.io/work-day-scheduler/
+
