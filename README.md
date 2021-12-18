@@ -28,4 +28,5 @@
 
 GitHub Repo: https://github.com/JD-Rowley/work-day-scheduler
 
+### Click on the image to be taken to the App!
 [![Sample Page Layout](/assets/images/screenshot.jpg)](https://jd-rowley.github.io/work-day-scheduler/)
