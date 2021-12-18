@@ -26,4 +26,6 @@
   * GitHub: [jd-rowley](http://github.com/jd-rowley)
   * E-mail: jdrowley1989@gmail.com
 
+GitHub Repo: https://github.com/JD-Rowley/work-day-scheduler
+
 ![screenshot](https://user-images.githubusercontent.com/86571612/130673288-912f7fbe-60e6-41e6-b27b-5ebfaaa62714.jpg)
