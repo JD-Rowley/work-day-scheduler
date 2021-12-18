@@ -28,4 +28,4 @@
 
 GitHub Repo: https://github.com/JD-Rowley/work-day-scheduler
 
-![screenshot](https://user-images.githubusercontent.com/86571612/130673288-912f7fbe-60e6-41e6-b27b-5ebfaaa62714.jpg)
+[![Sample Page Layout](/assets/image/screenshot.jpg)](https://jd-rowley.github.io/work-day-scheduler/)
